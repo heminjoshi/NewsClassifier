@@ -1,0 +1,12 @@
+**/*.csv
+**/*.pl
+**/*.vec
+*.pl
+*.news
+*.toxic
+*.tfidf
+venv/
+__pycache__/
+**/_pycache__/
+.ipynb_checkpoints/
+.vscode/
