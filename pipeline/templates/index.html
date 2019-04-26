@@ -1,0 +1,24 @@
+<html>
+<style>
+    body {
+        max-width: 1180px;
+        width: 98%;
+        margin: 0px auto;
+        text-align: center;
+        padding-top: 2%;
+    }
+</style>
+
+<body>
+    <h2> Fake News Classification </h2>
+    <form action="classify" , method="POST">
+        <input type="text" name="title" placeholder="News Title" required> <br>
+        <input type="text" name="content" placeholder="News Content" required> <br>
+        <input type="text" name="source" placeholder="Source"> <br>
+        <input type="text" name="author" placeholder="Author Name"> <br>
+        <input type="date" id="date" name="date" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" placeholder="yyyy-mm-dd"> <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
